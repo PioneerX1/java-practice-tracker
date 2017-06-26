@@ -10,9 +10,9 @@ public class PracticeTracker {
 
     String evaluation = evaluateEffort(hours);
 
-    System.out.print("You have coded " + hours + " over the last 3 days. " + evaluation);
+    System.out.println("You have coded " + hours + " over the last 3 days. " + evaluation);
   }
-  public static Integer askForHours(String whatDay); {
+  public static Integer askForHours(String whatDay) {
     Console myConsole = System.console();
     System.out.println("How many hours did you code " + whatDay +
     "?");
